@@ -26,9 +26,8 @@ const getTodoByID = async (req, res) => {
 const updateTodo = async (req, res) => {
     const userID = req.claims.id;
     const newTodo = {
+        ...req.body,
         id: req.params.id,
-        title: req.body.title,
-        status: req.body.status
     }
     const response = await todoService.updateTodo(userID, newTodo);
     res.status(response.statusCode).json(response);

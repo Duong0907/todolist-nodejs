@@ -6,7 +6,7 @@ const userModel = db.users;
 const login = async (credentials) => {
     const user = await userModel.findOne({
         where: {
-            username: credentials.username,
+            email: credentials.email,
         }
     });
 

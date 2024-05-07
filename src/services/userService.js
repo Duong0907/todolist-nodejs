@@ -8,6 +8,7 @@ const createUser = async (user) => {
     user.password = hashedPassword;
 
     const createdUser = await UserModel.create(user);
+    createdUser.password = "***";
     return {
         message: "Create user successfully",
         error: false,

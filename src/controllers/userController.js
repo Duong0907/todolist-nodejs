@@ -2,7 +2,8 @@ const userService = require('../services/userService');
 
 const createUser = async (req, res) => {
     let newUser = {
-        username: req.body.username,
+        firstname: req.body.firstname,
+        lastname: req.body.lastname,
         email: req.body.email,
         password: req.body.password
     };
@@ -31,14 +32,20 @@ const updateUser = async (req, res) => {
 
 const deleteUser = async (req, res) => {
     let userid = req.params.id;
-    console.log(userid);
     const response = await userService.deleteUser(userid);
+    res.status(response.statusCode).json(response);
+}
+
+const getCurrentUser = async (req, res) => {
+    const userID = req.claims.id;
+    const response = await userService.getUserByID(userID);
     res.status(response.statusCode).json(response);
 }
 
 module.exports = {
     createUser,
     getUserByID,
+    getCurrentUser,
     updateUser,
     deleteUser
 }

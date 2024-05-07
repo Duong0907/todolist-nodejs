@@ -1,9 +1,10 @@
 const dbConfig = {
     HOST: 'localhost',
-    USER: 'root',
+    USER: 'postgres',
     PASSWORD: 'secret',
-    DB: 'todolist',
-    dialect: 'mysql',
+    DB: 'postgres',
+    dialect: 'postgres',
+    port: 5433,
     pool: {
         max: 5,
         min: 0,

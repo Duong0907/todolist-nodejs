@@ -1,0 +1,67 @@
+2024-05-07T15:33:19.788Z info: Received a GET request for /api/todos/
+2024-05-07T15:33:25.822Z info: Received a POST request for /api/login
+2024-05-07T15:36:17.731Z info: App listening on port 8080!
+2024-05-07T15:42:46.477Z info: App listening on port 8080!
+2024-05-07T15:42:48.555Z info: App listening on port 8080!
+2024-05-07T15:43:25.886Z info: Received a POST request for /api/login
+undefined
+undefined
+2024-05-07T15:45:15.880Z info: App listening on port 8080!
+undefined
+undefined
+undefined
+
+
+
+
+
+2024-05-07T15:46:32.879Z info: App listening on port 8080!
+2024-05-07T15:51:29.950Z info: App listening on port 8080!
+2024-05-07T15:51:33.564Z info: Received a POST request for /api/login
+2024-05-07T15:53:18.903Z info: App listening on port 8080!
+2024-05-07T15:53:21.425Z info: App listening on port 8080!
+2024-05-07T15:53:22.648Z info: Received a POST request for /api/login
+2024-05-07T15:53:31.349Z info: App listening on port 8080!
+2024-05-07T15:53:33.325Z info: App listening on port 8080!
+2024-05-07T15:55:35.892Z info: App listening on port 8080!
+2024-05-07T15:55:40.597Z info: Received a POST request for /api/login
+2024-05-07T15:56:19.703Z info: App listening on port 8080!
+2024-05-07T15:57:48.311Z info: App listening on port 8080!
+2024-05-07T15:57:49.696Z info: Received a POST request for /api/login
+2024-05-07T15:58:13.378Z info: Received a GET request for /api/users/me
+2024-05-07T15:58:13.384Z info: Received a GET request for /api/users/me
+2024-05-07T15:58:40.498Z info: App listening on port 8080!
+2024-05-07T15:58:46.603Z info: App listening on port 8080!
+2024-05-07T15:58:48.361Z info: App listening on port 8080!
+2024-05-07T15:59:47.314Z info: App listening on port 8080!
+2024-05-07T15:59:57.255Z info: App listening on port 8080!
+2024-05-07T16:00:05.287Z info: App listening on port 8080!
+2024-05-07T16:00:26.159Z info: App listening on port 8080!
+2024-05-07T16:04:42.370Z info: App listening on port 8080!
+2024-05-07T16:04:47.156Z info: App listening on port 8080!
+2024-05-07T16:04:56.800Z info: App listening on port 8080!
+2024-05-07T16:04:58.919Z info: App listening on port 8080!
+2024-05-07T16:05:02.164Z info: Received a POST request for /api/login
+2024-05-07T16:05:30.608Z info: App listening on port 8080!
+2024-05-07T16:05:33.404Z info: POST request for /api/login
+2024-05-07T16:05:41.212Z info: App listening on port 8080!
+2024-05-07T16:05:41.864Z info: POST - /api/login
+2024-05-07T16:05:48.996Z info: App listening on port 8080!
+2024-05-07T16:05:51.289Z info: POST /api/login
+2024-05-07T16:06:54.609Z info: App listening on port 8080!
+2024-05-07T16:07:07.063Z info: POST /api/login
+2024-05-07T16:08:02.913Z info: App listening on port 8080!
+2024-05-07T16:08:04.054Z info: App listening on port 8080!
+2024-05-07T16:08:42.400Z info: App listening on port 8080!
+2024-05-07T16:08:45.822Z info: App listening on port 8080!
+2024-05-07T16:08:55.882Z info: App listening on port 8080!
+2024-05-07T16:09:03.284Z info: App listening on port 8080!
+2024-05-07T16:09:08.696Z info: App listening on port 8080!
+2024-05-07T16:09:42.412Z info: App listening on port 8080!
+2024-05-07T16:10:03.032Z info: Received a GET request for /api/users/me
+2024-05-07T16:10:03.051Z info: Received a GET request for /api/users/me
+2024-05-07T16:10:21.874Z info: App listening on port 8080!
+2024-05-07T16:10:23.776Z info: App listening on port 8080!
+2024-05-07T16:10:28.399Z info: POST /api/login
+2024-05-07T16:10:44.114Z info: App listening on port 8080!
+2024-05-07T16:10:50.702Z info: App listening on port 8080!

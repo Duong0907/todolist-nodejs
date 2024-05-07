@@ -9,6 +9,8 @@ const sequelize = new Sequelize(
         host: dbConfig.HOST,
         dialect: dbConfig.dialect,
         operatorsAliases: false,
+        port: dbConfig.port,
+        logging: false,
         pool: {
             max: dbConfig.pool.max,
             min: dbConfig.pool.min,
@@ -35,8 +37,12 @@ db.todos = require('./todoModel')(sequelize, DataTypes);
 // Setup foreign keys
 db.users.hasMany(db.todos, { 
     foreignKey: 'user_id', 
-    foreignKeyConstraint: true 
+    foreignKeyConstraint: true
 });
+db.todos.belongsTo(db.users, {
+    foreignKey: 'user_id', 
+    foreignKeyConstraint: true
+})
 
 // If 'force' is set = true, data will be deleted when starting server
 db.sequelize.sync({ force: false })
