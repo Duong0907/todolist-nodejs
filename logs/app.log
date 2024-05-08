@@ -65,3 +65,831 @@ undefined
 2024-05-07T16:10:28.399Z info: POST /api/login
 2024-05-07T16:10:44.114Z info: App listening on port 8080!
 2024-05-07T16:10:50.702Z info: App listening on port 8080!
+2024-05-07T16:11:30.519Z info: App listening on port 8080!
+2024-05-07T16:11:41.516Z info: POST /api/login
+2024-05-08T00:47:32.562Z info: App listening on port 8080!
+2024-05-08T00:47:52.147Z info: GET /api/users/me
+2024-05-08T00:47:52.156Z info: GET /api/users/me
+2024-05-08T00:48:00.491Z info: GET /api/users/me
+2024-05-08T00:48:00.494Z info: GET /api/users/me
+2024-05-08T00:48:55.332Z info: GET /api/users/me
+2024-05-08T00:48:55.337Z info: GET /api/users/me
+2024-05-08T00:49:32.404Z info: GET /api/users/me
+2024-05-08T00:49:38.374Z info: GET /api/users/me
+2024-05-08T00:49:39.360Z info: GET /api/users/me
+2024-05-08T00:49:43.358Z info: GET /api/users/me
+2024-05-08T00:53:26.603Z info: POST /api/users/
+2024-05-08T00:53:40.780Z info: POST /api/login
+2024-05-08T00:54:00.613Z info: POST /api/login
+2024-05-08T00:54:00.770Z info: GET /api/users/me
+2024-05-08T00:54:00.818Z info: GET /api/todos/
+2024-05-08T00:54:00.832Z info: GET /api/todos/
+2024-05-08T00:54:04.784Z info: POST /api/todos/
+2024-05-08T00:54:06.456Z info: PUT /api/todos/1
+2024-05-08T00:54:08.132Z info: GET /api/users/me
+2024-05-08T00:54:08.144Z info: GET /api/users/me
+2024-05-08T00:54:09.757Z info: GET /api/todos/
+2024-05-08T00:54:09.766Z info: GET /api/todos/
+2024-05-08T00:54:11.718Z info: DELETE /api/todos/1
+2024-05-08T00:54:19.231Z info: GET /api/users/me
+2024-05-08T00:54:19.239Z info: GET /api/users/me
+2024-05-08T00:54:24.901Z info: POST /api/login
+2024-05-08T00:55:45.427Z info: POST /api/login
+2024-05-08T00:56:19.733Z info: POST /api/login
+2024-05-08T00:56:21.744Z info: GET /api/users/me
+2024-05-08T00:56:21.748Z info: GET /api/users/me
+2024-05-08T00:56:44.351Z info: GET /api/users/me
+2024-05-08T00:56:47.342Z info: GET /api/users/me
+2024-05-08T00:56:56.340Z info: GET /api/users/me
+2024-05-08T00:56:59.352Z info: GET /api/users/me
+2024-05-08T00:57:03.023Z info: GET /api/users/me
+2024-05-08T00:57:05.102Z info: GET /api/users/me
+2024-05-08T00:57:05.108Z info: GET /api/users/me
+2024-05-08T00:57:11.722Z info: GET /api/users/me
+2024-05-08T00:57:11.727Z info: GET /api/users/me
+2024-05-08T00:58:42.638Z info: GET /api/users/me
+2024-05-08T00:58:42.641Z info: GET /api/users/me
+2024-05-08T00:58:49.570Z info: GET /api/users/me
+2024-05-08T00:58:49.574Z info: GET /api/users/me
+2024-05-08T01:00:06.759Z info: GET /api/users/me
+2024-05-08T01:00:06.767Z info: GET /api/users/me
+2024-05-08T01:00:15.763Z info: GET /api/users/me
+2024-05-08T01:00:15.770Z info: GET /api/users/me
+2024-05-08T01:00:56.317Z info: GET /api/users/me
+2024-05-08T01:00:57.896Z info: GET /api/users/me
+2024-05-08T01:00:57.900Z info: GET /api/users/me
+2024-05-08T01:01:04.240Z info: GET /api/users/me
+2024-05-08T01:01:04.245Z info: GET /api/users/me
+2024-05-08T01:01:10.363Z info: GET /api/users/me
+2024-05-08T01:01:25.073Z info: GET /api/users/me
+2024-05-08T01:01:25.080Z info: GET /api/users/me
+2024-05-08T01:01:32.202Z info: GET /api/users/me
+2024-05-08T01:01:32.210Z info: GET /api/users/me
+2024-05-08T01:02:20.733Z info: GET /api/users/me
+2024-05-08T01:02:20.741Z info: GET /api/users/me
+2024-05-08T01:03:34.455Z info: GET /api/users/me
+2024-05-08T01:03:34.468Z info: GET /api/users/me
+2024-05-08T01:05:35.321Z info: GET /api/users/me
+2024-05-08T01:05:35.325Z info: GET /api/users/me
+2024-05-08T01:05:42.697Z info: GET /api/users/me
+2024-05-08T01:05:42.703Z info: GET /api/users/me
+2024-05-08T01:05:59.349Z info: GET /api/users/me
+2024-05-08T01:06:00.350Z info: GET /api/users/me
+2024-05-08T01:06:02.349Z info: GET /api/users/me
+2024-05-08T01:06:08.502Z info: GET /api/users/me
+2024-05-08T01:06:08.507Z info: GET /api/users/me
+2024-05-08T01:06:14.095Z info: POST /api/users/
+2024-05-08T01:06:15.455Z info: POST /api/users/
+2024-05-08T01:06:16.530Z info: POST /api/users/
+2024-05-08T01:06:16.692Z info: POST /api/users/
+2024-05-08T01:06:16.847Z info: POST /api/users/
+2024-05-08T01:06:17.026Z info: POST /api/users/
+2024-05-08T01:06:20.949Z info: POST /api/users/
+2024-05-08T01:06:21.136Z info: POST /api/users/
+2024-05-08T01:06:21.312Z info: POST /api/users/
+2024-05-08T01:06:31.604Z info: POST /api/users/
+2024-05-08T01:07:23.937Z info: POST /api/users/
+2024-05-08T01:08:27.997Z info: POST /api/users/
+2024-05-08T01:08:43.659Z info: GET /api/users/me
+2024-05-08T01:08:43.668Z info: GET /api/users/me
+2024-05-08T01:09:34.358Z info: GET /api/users/me
+2024-05-08T01:09:38.355Z info: GET /api/users/me
+2024-05-08T01:09:51.275Z info: POST /api/login
+2024-05-08T01:11:06.362Z info: GET /api/users/me
+2024-05-08T01:11:12.563Z info: POST /api/users/
+2024-05-08T01:14:57.358Z info: GET /api/users/me
+2024-05-08T01:15:02.555Z info: GET /api/users/me
+2024-05-08T01:15:02.560Z info: GET /api/users/me
+2024-05-08T01:15:12.126Z info: POST /api/users/
+2024-05-08T01:15:34.358Z info: GET /api/users/me
+2024-05-08T01:15:42.791Z info: GET /api/users/me
+2024-05-08T01:15:42.795Z info: GET /api/users/me
+2024-05-08T01:15:48.040Z info: POST /api/users/
+2024-05-08T01:16:01.719Z info: GET /api/users/me
+2024-05-08T01:16:08.356Z info: GET /api/users/me
+2024-05-08T01:16:11.079Z info: GET /api/users/me
+2024-05-08T01:16:14.002Z info: GET /api/users/me
+2024-05-08T01:16:14.006Z info: GET /api/users/me
+2024-05-08T01:16:18.565Z info: POST /api/users/
+2024-05-08T01:16:29.666Z info: GET /api/users/me
+2024-05-08T01:16:30.408Z info: GET /api/users/me
+2024-05-08T01:16:30.414Z info: GET /api/users/me
+2024-05-08T01:16:37.154Z info: POST /api/users/
+2024-05-08T01:17:15.350Z info: GET /api/users/me
+2024-05-08T01:17:18.358Z info: GET /api/users/me
+2024-05-08T01:17:25.358Z info: GET /api/users/me
+2024-05-08T01:17:27.841Z info: GET /api/users/me
+2024-05-08T01:17:29.788Z info: GET /api/users/me
+2024-05-08T01:17:29.792Z info: GET /api/users/me
+2024-05-08T01:17:35.921Z info: POST /api/users/
+2024-05-08T01:19:30.362Z info: GET /api/users/me
+2024-05-08T01:19:48.350Z info: GET /api/users/me
+2024-05-08T01:19:48.353Z info: GET /api/users/me
+2024-05-08T01:20:09.364Z info: GET /api/users/me
+2024-05-08T01:20:09.368Z info: GET /api/users/me
+2024-05-08T01:20:14.356Z info: GET /api/users/me
+2024-05-08T01:20:14.358Z info: GET /api/users/me
+2024-05-08T01:20:30.350Z info: POST /api/users/
+2024-05-08T01:21:02.361Z info: GET /api/users/me
+2024-05-08T01:21:02.364Z info: GET /api/users/me
+2024-05-08T01:21:50.153Z info: GET /api/users/me
+2024-05-08T01:21:50.157Z info: GET /api/users/me
+2024-05-08T01:21:56.911Z info: POST /api/users/
+2024-05-08T01:22:54.680Z info: GET /api/users/me
+2024-05-08T01:22:54.684Z info: GET /api/users/me
+2024-05-08T01:23:00.527Z info: POST /api/users/
+2024-05-08T01:23:08.986Z info: POST /api/login
+2024-05-08T01:23:09.064Z info: GET /api/users/me
+2024-05-08T01:23:09.084Z info: GET /api/todos/
+2024-05-08T01:23:09.095Z info: GET /api/todos/
+2024-05-08T01:25:29.392Z info: POST /api/login
+2024-05-08T01:25:29.514Z info: GET /api/users/me
+2024-05-08T01:25:29.529Z info: GET /api/todos/
+2024-05-08T01:25:29.536Z info: GET /api/todos/
+2024-05-08T01:31:01.358Z info: GET /api/users/me
+2024-05-08T01:31:23.387Z info: GET /api/users/me
+2024-05-08T01:31:26.327Z info: GET /api/users/me
+2024-05-08T01:31:26.333Z info: GET /api/users/me
+2024-05-08T01:31:40.357Z info: GET /api/users/me
+2024-05-08T01:31:40.409Z info: GET /api/users/me
+2024-05-08T01:31:41.355Z info: GET /api/users/me
+2024-05-08T01:31:41.361Z info: GET /api/users/me
+2024-05-08T01:32:07.349Z info: GET /api/users/me
+2024-05-08T01:32:07.401Z info: GET /api/users/me
+2024-05-08T01:32:10.357Z info: GET /api/users/me
+2024-05-08T01:32:10.362Z info: GET /api/users/me
+2024-05-08T01:32:12.363Z info: GET /api/users/me
+2024-05-08T01:32:12.372Z info: GET /api/users/me
+2024-05-08T01:32:15.341Z info: GET /api/users/me
+2024-05-08T01:32:15.346Z info: GET /api/users/me
+2024-05-08T01:32:19.346Z info: GET /api/users/me
+2024-05-08T01:32:19.352Z info: GET /api/users/me
+2024-05-08T01:32:23.349Z info: GET /api/users/me
+2024-05-08T01:32:23.360Z info: GET /api/users/me
+2024-05-08T01:32:31.358Z info: GET /api/users/me
+2024-05-08T01:32:31.364Z info: GET /api/users/me
+2024-05-08T01:32:38.351Z info: GET /api/users/me
+2024-05-08T01:32:38.356Z info: GET /api/users/me
+2024-05-08T01:32:39.343Z info: GET /api/users/me
+2024-05-08T01:32:39.348Z info: GET /api/users/me
+2024-05-08T01:32:42.343Z info: GET /api/users/me
+2024-05-08T01:32:42.351Z info: GET /api/users/me
+2024-05-08T01:32:49.347Z info: GET /api/users/me
+2024-05-08T01:32:49.352Z info: GET /api/users/me
+2024-05-08T01:32:54.365Z info: GET /api/users/me
+2024-05-08T01:32:54.372Z info: GET /api/users/me
+2024-05-08T01:33:00.343Z info: GET /api/users/me
+2024-05-08T01:33:00.380Z info: GET /api/users/me
+2024-05-08T01:33:02.347Z info: GET /api/users/me
+2024-05-08T01:33:02.358Z info: GET /api/users/me
+2024-05-08T01:33:05.738Z info: GET /api/users/me
+2024-05-08T01:33:05.744Z info: GET /api/users/me
+2024-05-08T01:34:57.150Z info: GET /api/users/me
+2024-05-08T01:34:57.235Z info: GET /api/users/me
+2024-05-08T01:34:57.252Z info: GET /api/todos/
+2024-05-08T01:34:57.263Z info: GET /api/todos/
+2024-05-08T01:35:03.624Z info: POST /api/login
+2024-05-08T01:35:11.638Z info: POST /api/login
+2024-05-08T01:35:11.721Z info: GET /api/users/me
+2024-05-08T01:35:11.737Z info: GET /api/todos/
+2024-05-08T01:35:11.742Z info: GET /api/todos/
+2024-05-08T01:35:47.359Z info: GET /api/users/me
+2024-05-08T01:35:47.409Z info: GET /api/users/me
+2024-05-08T01:35:47.416Z info: GET /api/todos/
+2024-05-08T01:35:47.422Z info: GET /api/todos/
+2024-05-08T01:36:01.362Z info: GET /api/users/me
+2024-05-08T01:36:05.364Z info: GET /api/users/me
+2024-05-08T01:36:16.355Z info: GET /api/users/me
+2024-05-08T01:36:20.383Z info: GET /api/users/me
+2024-05-08T01:36:26.903Z info: GET /api/users/me
+2024-05-08T01:36:28.720Z info: GET /api/users/me
+2024-05-08T01:36:28.729Z info: GET /api/users/me
+2024-05-08T01:36:30.351Z info: GET /api/todos/
+2024-05-08T01:36:30.359Z info: GET /api/todos/
+2024-05-08T01:36:33.655Z info: POST /api/login
+2024-05-08T01:36:33.742Z info: GET /api/users/me
+2024-05-08T01:36:33.760Z info: GET /api/todos/
+2024-05-08T01:36:33.766Z info: GET /api/todos/
+2024-05-08T01:36:39.664Z info: POST /api/login
+2024-05-08T01:36:48.363Z info: GET /api/users/me
+2024-05-08T01:36:49.347Z info: GET /api/users/me
+2024-05-08T01:36:50.365Z info: GET /api/users/me
+2024-05-08T01:36:57.356Z info: GET /api/users/me
+2024-05-08T01:37:01.351Z info: GET /api/users/me
+2024-05-08T01:37:06.347Z info: GET /api/users/me
+2024-05-08T01:37:12.927Z info: GET /api/users/me
+2024-05-08T01:37:14.670Z info: GET /api/users/me
+2024-05-08T01:37:14.676Z info: GET /api/users/me
+2024-05-08T01:37:22.271Z info: POST /api/login
+2024-05-08T01:37:29.425Z info: GET /api/users/me
+2024-05-08T01:37:30.305Z info: GET /api/users/me
+2024-05-08T01:37:30.307Z info: GET /api/users/me
+2024-05-08T01:37:34.962Z info: POST /api/login
+2024-05-08T01:37:48.352Z info: GET /api/users/me
+2024-05-08T01:37:51.353Z info: GET /api/users/me
+2024-05-08T01:39:08.348Z info: GET /api/users/me
+2024-05-08T01:39:10.355Z info: GET /api/users/me
+2024-05-08T01:39:12.361Z info: GET /api/users/me
+2024-05-08T01:39:13.361Z info: GET /api/users/me
+2024-05-08T01:39:14.361Z info: GET /api/users/me
+2024-05-08T01:39:15.944Z info: GET /api/users/me
+2024-05-08T01:39:15.949Z info: GET /api/users/me
+2024-05-08T01:39:21.485Z info: POST /api/login
+2024-05-08T01:39:37.352Z info: GET /api/users/me
+2024-05-08T01:39:40.361Z info: GET /api/users/me
+2024-05-08T01:39:44.359Z info: GET /api/users/me
+2024-05-08T01:39:52.352Z info: GET /api/users/me
+2024-05-08T01:39:59.350Z info: GET /api/users/me
+2024-05-08T01:40:09.341Z info: GET /api/users/me
+2024-05-08T01:40:25.357Z info: GET /api/users/me
+2024-05-08T01:40:37.993Z info: POST /api/users/
+2024-05-08T01:40:44.349Z info: GET /api/users/me
+2024-05-08T01:41:11.058Z info: POST /api/users/
+2024-05-08T01:41:45.903Z info: GET /api/users/me
+2024-05-08T01:41:45.920Z info: GET /api/users/me
+2024-05-08T01:41:55.073Z info: POST /api/login
+2024-05-08T01:41:55.196Z info: GET /api/users/me
+2024-05-08T01:41:55.212Z info: GET /api/todos/
+2024-05-08T01:41:55.218Z info: GET /api/todos/
+2024-05-08T01:42:28.359Z info: GET /api/users/me
+2024-05-08T01:42:31.326Z info: GET /api/users/me
+2024-05-08T01:42:32.300Z info: GET /api/users/me
+2024-05-08T01:42:32.315Z info: GET /api/users/me
+2024-05-08T01:42:34.055Z info: GET /api/todos/
+2024-05-08T01:42:34.064Z info: GET /api/todos/
+2024-05-08T01:44:14.767Z info: POST /api/users/
+2024-05-08T01:44:22.785Z info: POST /api/users/
+2024-05-08T01:44:28.607Z info: POST /api/login
+2024-05-08T01:44:28.687Z info: GET /api/users/me
+2024-05-08T01:44:28.702Z info: GET /api/todos/
+2024-05-08T01:44:28.709Z info: GET /api/todos/
+2024-05-08T01:44:35.036Z info: POST /api/login
+2024-05-08T01:44:35.115Z info: GET /api/users/me
+2024-05-08T01:44:35.127Z info: GET /api/todos/
+2024-05-08T01:44:35.132Z info: GET /api/todos/
+2024-05-08T01:44:46.173Z info: POST /api/todos/
+2024-05-08T01:44:48.996Z info: PUT /api/todos/2
+2024-05-08T01:44:51.376Z info: PUT /api/todos/2
+2024-05-08T01:46:00.350Z info: GET /api/todos/
+2024-05-08T01:46:06.356Z info: GET /api/todos/
+2024-05-08T01:46:09.360Z info: GET /api/todos/
+2024-05-08T01:46:14.360Z info: GET /api/todos/
+2024-05-08T01:46:22.663Z info: GET /api/todos/
+2024-05-08T01:46:24.756Z info: GET /api/users/me
+2024-05-08T01:46:24.767Z info: GET /api/users/me
+2024-05-08T01:46:26.691Z info: GET /api/todos/
+2024-05-08T01:46:26.700Z info: GET /api/todos/
+2024-05-08T01:46:28.052Z info: PUT /api/todos/2
+2024-05-08T01:46:28.382Z info: PUT /api/todos/2
+2024-05-08T01:46:28.790Z info: DELETE /api/todos/2
+2024-05-08T01:46:41.355Z info: GET /api/todos/
+2024-05-08T01:46:42.351Z info: GET /api/todos/
+2024-05-08T01:46:44.174Z info: GET /api/todos/
+2024-05-08T01:46:48.345Z info: GET /api/users/me
+2024-05-08T01:46:48.354Z info: GET /api/users/me
+2024-05-08T01:46:50.156Z info: GET /api/todos/
+2024-05-08T01:46:50.165Z info: GET /api/todos/
+2024-05-08T01:46:53.516Z info: POST /api/todos/
+2024-05-08T01:46:54.471Z info: DELETE /api/todos/3
+2024-05-08T01:55:07.654Z info: GET /api/users/me
+2024-05-08T01:55:07.662Z info: GET /api/users/me
+2024-05-08T01:56:39.621Z info: App listening on port 8080!
+2024-05-08T02:00:18.659Z info: App listening on port 8080!
+2024-05-08T02:00:23.620Z info: GET /
+2024-05-08T02:00:38.395Z info: App listening on port 8080!
+2024-05-08T02:00:56.200Z info: App listening on port 8080!
+2024-05-08T02:01:00.712Z info: App listening on port 8080!
+2024-05-08T02:01:09.452Z info: App listening on port 8080!
+2024-05-08T02:05:57.425Z info: App listening on port 8080!
+2024-05-08T02:06:01.769Z info: App listening on port 8080!
+2024-05-08T02:06:05.370Z info: App listening on port 8080!
+2024-05-08T02:06:08.448Z info: App listening on port 8080!
+2024-05-08T02:06:14.495Z info: App listening on port 8080!
+2024-05-08T02:06:18.348Z info: App listening on port 8080!
+2024-05-08T02:06:19.454Z info: App listening on port 8080!
+2024-05-08T02:06:35.718Z info: App listening on port 8080!
+2024-05-08T02:06:43.164Z info: App listening on port 8080!
+2024-05-08T02:06:56.012Z info: App listening on port 8080!
+2024-05-08T02:07:00.957Z info: App listening on port 8080!
+2024-05-08T02:07:09.446Z info: App listening on port 8080!
+2024-05-08T02:07:16.805Z info: App listening on port 8080!
+2024-05-08T02:07:24.257Z info: App listening on port 8080!
+2024-05-08T02:07:42.344Z info: App listening on port 8080!
+2024-05-08T02:07:46.080Z info: App listening on port 8080!
+2024-05-08T02:07:51.694Z info: App listening on port 8080!
+2024-05-08T02:08:15.841Z info: App listening on port 8080!
+2024-05-08T02:08:42.758Z info: App listening on port 8080!
+2024-05-08T02:08:47.600Z info: App listening on port 8080!
+2024-05-08T02:09:04.922Z info: App listening on port 8080!
+2024-05-08T02:09:07.149Z info: App listening on port 8080!
+2024-05-08T02:09:17.697Z info: POST /api/login
+2024-05-08T02:09:44.299Z info: App listening on port 8080!
+2024-05-08T02:10:22.511Z info: App listening on port 8080!
+2024-05-08T02:10:55.848Z info: App listening on port 8080!
+2024-05-08T02:11:08.986Z info: POST /api/login
+2024-05-08T02:12:05.886Z info: App listening on port 8080!
+2024-05-08T02:12:07.398Z info: App listening on port 8080!
+2024-05-08T02:12:08.673Z info: App listening on port 8080!
+2024-05-08T02:12:12.707Z info: POST /api/login
+2024-05-08T02:13:40.150Z info: App listening on port 8080!
+2024-05-08T02:14:11.880Z info: App listening on port 8080!
+2024-05-08T02:14:16.458Z info: App listening on port 8080!
+2024-05-08T02:14:17.488Z info: App listening on port 8080!
+2024-05-08T02:14:19.596Z info: App listening on port 8080!
+2024-05-08T02:15:26.699Z info: App listening on port 8080!
+2024-05-08T02:15:30.561Z info: App listening on port 8080!
+2024-05-08T02:15:31.909Z info: POST /api/login
+2024-05-08T02:15:49.126Z info: App listening on port 8080!
+2024-05-08T02:15:57.594Z info: App listening on port 8080!
+2024-05-08T02:16:09.123Z info: App listening on port 8080!
+2024-05-08T02:16:14.307Z info: POST /api/login
+2024-05-08T02:17:06.743Z info: App listening on port 8080!
+2024-05-08T02:17:09.426Z info: App listening on port 8080!
+2024-05-08T02:17:26.035Z info: App listening on port 8080!
+2024-05-08T02:17:27.361Z info: App listening on port 8080!
+2024-05-08T02:17:37.869Z info: App listening on port 8080!
+2024-05-08T02:17:40.747Z info: App listening on port 8080!
+2024-05-08T02:17:42.753Z info: POST /api/login
+2024-05-08T02:19:28.015Z info: App listening on port 8080!
+2024-05-08T02:20:21.456Z info: App listening on port 8080!
+2024-05-08T02:20:24.114Z info: POST /api/login
+2024-05-08T02:21:01.451Z info: App listening on port 8080!
+2024-05-08T02:21:04.642Z info: POST /api/login
+2024-05-08T02:22:07.609Z info: App listening on port 8080!
+2024-05-08T02:25:39.893Z info: App listening on port 8080!
+2024-05-08T02:25:49.027Z info: App listening on port 8080!
+2024-05-08T02:26:03.814Z info: App listening on port 8080!
+2024-05-08T02:26:07.971Z info: App listening on port 8080!
+2024-05-08T02:26:13.196Z info: App listening on port 8080!
+2024-05-08T02:26:20.542Z info: App listening on port 8080!
+2024-05-08T02:26:23.250Z info: App listening on port 8080!
+2024-05-08T02:26:25.726Z info: App listening on port 8080!
+2024-05-08T02:26:29.318Z info: App listening on port 8080!
+2024-05-08T02:26:34.337Z info: App listening on port 8080!
+2024-05-08T02:26:38.473Z info: App listening on port 8080!
+2024-05-08T02:26:41.929Z info: App listening on port 8080!
+2024-05-08T02:26:50.982Z info: App listening on port 8080!
+2024-05-08T02:26:53.645Z info: App listening on port 8080!
+2024-05-08T02:26:55.626Z info: App listening on port 8080!
+2024-05-08T02:26:56.667Z info: App listening on port 8080!
+2024-05-08T02:27:07.288Z info: App listening on port 8080!
+2024-05-08T02:27:11.898Z info: App listening on port 8080!
+2024-05-08T02:27:18.609Z info: GET /adffaf
+2024-05-08T02:27:47.777Z info: App listening on port 8080!
+2024-05-08T02:28:04.569Z info: App listening on port 8080!
+2024-05-08T02:28:05.932Z info: App listening on port 8080!
+2024-05-08T02:28:34.146Z info: App listening on port 8080!
+2024-05-08T02:28:35.262Z info: GET /adffaf
+2024-05-08T02:30:01.953Z info: App listening on port 8080!
+2024-05-08T02:30:04.777Z info: GET /adffaf
+2024-05-08T02:30:09.275Z info: GET /
+2024-05-08T02:30:22.363Z info: App listening on port 8080!
+2024-05-08T02:30:27.622Z info: App listening on port 8080!
+2024-05-08T02:30:28.548Z info: GET /
+2024-05-08T02:30:29.584Z info: GET /
+2024-05-08T02:31:10.401Z info: App listening on port 8080!
+2024-05-08T02:31:14.742Z info: App listening on port 8080!
+2024-05-08T02:32:03.014Z info: App listening on port 8080!
+2024-05-08T02:32:17.662Z info: App listening on port 8080!
+2024-05-08T02:32:19.121Z info: App listening on port 8080!
+2024-05-08T02:32:23.645Z info: App listening on port 8080!
+2024-05-08T02:32:31.992Z info: App listening on port 8080!
+2024-05-08T02:32:35.008Z info: GET /
+2024-05-08T02:32:42.102Z info: App listening on port 8080!
+2024-05-08T02:32:48.620Z info: App listening on port 8080!
+2024-05-08T02:32:52.002Z info: GET /
+2024-05-08T02:33:37.218Z info: App listening on port 8080!
+2024-05-08T02:33:39.998Z info: GET /ping
+2024-05-08T02:33:47.749Z info: App listening on port 8080!
+2024-05-08T02:33:48.278Z info: GET /ping
+2024-05-08T02:33:55.843Z info: GET /
+2024-05-08T02:34:01.641Z info: App listening on port 8080!
+2024-05-08T02:34:02.614Z info: GET /
+2024-05-08T02:34:33.538Z info: App listening on port 8080!
+2024-05-08T02:34:34.927Z info: GET /
+2024-05-08T02:34:45.189Z info: App listening on port 8080!
+2024-05-08T02:35:05.428Z info: App listening on port 8080!
+2024-05-08T02:35:07.466Z info: GET /
+2024-05-08T02:36:45.471Z info: App listening on port 8080!
+2024-05-08T02:36:54.144Z info: App listening on port 8080!
+2024-05-08T02:36:58.026Z info: App listening on port 8080!
+2024-05-08T02:37:05.002Z info: App listening on port 8080!
+2024-05-08T02:37:23.470Z info: App listening on port 8080!
+2024-05-08T02:37:29.383Z info: App listening on port 8080!
+2024-05-08T02:37:31.758Z info: App listening on port 8080!
+2024-05-08T02:37:34.784Z info: App listening on port 8080!
+2024-05-08T02:37:37.884Z info: App listening on port 8080!
+2024-05-08T02:37:50.214Z info: App listening on port 8080!
+2024-05-08T02:37:52.003Z info: App listening on port 8080!
+2024-05-08T02:37:58.868Z info: App listening on port 8080!
+2024-05-08T02:38:08.090Z info: App listening on port 8080!
+2024-05-08T02:38:32.824Z info: App listening on port 8080!
+2024-05-08T02:38:35.679Z info: App listening on port 8080!
+2024-05-08T02:38:40.866Z info: GET /
+2024-05-08T02:39:34.492Z info: App listening on port 8080!
+2024-05-08T02:39:38.024Z info: App listening on port 8080!
+2024-05-08T02:39:42.479Z info: App listening on port 8080!
+2024-05-08T02:39:43.866Z info: App listening on port 8080!
+2024-05-08T02:39:58.208Z info: GET /
+2024-05-08T02:40:11.915Z info: App listening on port 8080!
+2024-05-08T02:40:28.947Z info: GET /
+2024-05-08T02:41:17.623Z info: App listening on port 8080!
+2024-05-08T02:41:20.879Z info: GET /
+2024-05-08T02:41:41.756Z info: App listening on port 8080!
+2024-05-08T02:43:13.561Z info: App listening on port 8080!
+2024-05-08T02:43:28.427Z info: App listening on port 8080!
+2024-05-08T02:43:33.145Z info: App listening on port 8080!
+2024-05-08T02:43:34.657Z info: App listening on port 8080!
+2024-05-08T02:43:37.495Z info: App listening on port 8080!
+2024-05-08T02:43:40.685Z info: App listening on port 8080!
+2024-05-08T02:43:55.780Z info: App listening on port 8080!
+2024-05-08T02:43:59.300Z info: App listening on port 8080!
+2024-05-08T02:44:02.977Z info: App listening on port 8080!
+2024-05-08T02:44:08.132Z info: App listening on port 8080!
+2024-05-08T02:44:29.228Z info: GET /
+2024-05-08T02:44:36.819Z info: POST /api/login
+2024-05-08T02:45:38.360Z info: App listening on port 8080!
+2024-05-08T02:45:52.834Z info: App listening on port 8080!
+2024-05-08T02:45:55.984Z info: App listening on port 8080!
+2024-05-08T02:45:57.325Z info: App listening on port 8080!
+2024-05-08T02:45:59.243Z info: App listening on port 8080!
+2024-05-08T02:46:12.761Z info: App listening on port 8080!
+2024-05-08T02:46:18.864Z info: App listening on port 8080!
+2024-05-08T02:46:34.213Z info: App listening on port 8080!
+2024-05-08T02:46:37.524Z info: App listening on port 8080!
+2024-05-08T02:46:39.170Z info: App listening on port 8080!
+2024-05-08T02:46:46.366Z info: App listening on port 8080!
+2024-05-08T02:46:47.820Z info: App listening on port 8080!
+2024-05-08T02:46:49.667Z info: App listening on port 8080!
+2024-05-08T02:46:52.934Z info: App listening on port 8080!
+2024-05-08T02:46:54.340Z info: App listening on port 8080!
+2024-05-08T02:46:58.397Z info: App listening on port 8080!
+2024-05-08T02:47:01.893Z info: POST /api/login
+2024-05-08T02:47:07.111Z info: POST /api/login
+2024-05-08T02:47:14.738Z info: GET /
+2024-05-08T02:48:08.688Z info: App listening on port 8080!
+2024-05-08T02:48:10.637Z info: App listening on port 8080!
+2024-05-08T02:48:19.774Z info: GET /
+2024-05-08T02:48:22.460Z info: POST /api/login
+2024-05-08T02:48:34.600Z info: App listening on port 8080!
+2024-05-08T02:48:35.156Z info: POST /api/login
+2024-05-08T02:48:36.228Z info: POST /api/login
+2024-05-08T02:48:46.886Z info: App listening on port 8080!
+2024-05-08T02:48:50.259Z info: App listening on port 8080!
+2024-05-08T02:48:56.545Z info: App listening on port 8080!
+2024-05-08T02:48:59.965Z info: App listening on port 8080!
+2024-05-08T02:51:02.889Z info: App listening on port 8080!
+2024-05-08T02:51:06.817Z info: POST /api/login
+2024-05-08T02:52:24.914Z info: App listening on port 8080!
+2024-05-08T02:52:27.563Z info: POST /api/login
+2024-05-08T02:52:35.671Z info: GET /asfa
+2024-05-08T02:52:48.761Z info: App listening on port 8080!
+2024-05-08T02:52:49.885Z info: GET /asfa
+2024-05-08T02:53:04.460Z info: App listening on port 8080!
+2024-05-08T02:53:10.966Z info: App listening on port 8080!
+2024-05-08T02:53:15.353Z info: App listening on port 8080!
+2024-05-08T02:53:22.013Z info: App listening on port 8080!
+2024-05-08T02:53:24.741Z info: App listening on port 8080!
+2024-05-08T02:53:33.443Z info: App listening on port 8080!
+2024-05-08T02:53:38.087Z info: App listening on port 8080!
+2024-05-08T02:53:39.695Z info: App listening on port 8080!
+2024-05-08T02:53:49.766Z info: App listening on port 8080!
+2024-05-08T02:53:54.532Z info: App listening on port 8080!
+2024-05-08T02:54:01.738Z info: App listening on port 8080!
+2024-05-08T02:54:03.074Z info: App listening on port 8080!
+2024-05-08T02:54:09.146Z info: App listening on port 8080!
+2024-05-08T02:54:12.235Z info: App listening on port 8080!
+2024-05-08T02:54:50.200Z info: App listening on port 8080!
+2024-05-08T02:54:52.388Z info: App listening on port 8080!
+2024-05-08T02:55:02.106Z info: App listening on port 8080!
+2024-05-08T02:55:03.517Z info: App listening on port 8080!
+2024-05-08T02:55:08.500Z info: App listening on port 8080!
+2024-05-08T02:55:10.881Z info: App listening on port 8080!
+2024-05-08T02:55:16.077Z info: App listening on port 8080!
+2024-05-08T02:55:19.687Z info: App listening on port 8080!
+2024-05-08T02:55:26.863Z info: App listening on port 8080!
+2024-05-08T02:55:43.163Z info: App listening on port 8080!
+2024-05-08T02:55:44.490Z info: App listening on port 8080!
+2024-05-08T02:55:46.940Z info: App listening on port 8080!
+2024-05-08T02:55:51.623Z info: App listening on port 8080!
+2024-05-08T02:56:02.332Z info: App listening on port 8080!
+2024-05-08T02:56:04.778Z info: App listening on port 8080!
+2024-05-08T02:56:12.580Z info: App listening on port 8080!
+2024-05-08T02:56:14.386Z info: App listening on port 8080!
+2024-05-08T02:56:16.957Z info: App listening on port 8080!
+2024-05-08T02:56:23.057Z info: App listening on port 8080!
+2024-05-08T02:56:27.280Z info: App listening on port 8080!
+2024-05-08T02:56:35.941Z info: App listening on port 8080!
+2024-05-08T02:56:44.820Z info: App listening on port 8080!
+2024-05-08T02:56:54.633Z info: App listening on port 8080!
+2024-05-08T02:56:56.673Z info: App listening on port 8080!
+2024-05-08T02:57:04.216Z info: App listening on port 8080!
+2024-05-08T02:57:07.879Z info: App listening on port 8080!
+2024-05-08T02:57:15.985Z info: App listening on port 8080!
+2024-05-08T02:57:17.475Z info: App listening on port 8080!
+2024-05-08T02:57:20.873Z info: App listening on port 8080!
+2024-05-08T02:57:23.368Z info: App listening on port 8080!
+2024-05-08T02:57:27.586Z info: App listening on port 8080!
+2024-05-08T02:57:30.792Z info: App listening on port 8080!
+2024-05-08T02:57:33.106Z info: App listening on port 8080!
+2024-05-08T02:57:35.898Z info: App listening on port 8080!
+2024-05-08T02:57:40.953Z info: App listening on port 8080!
+2024-05-08T02:57:47.300Z info: App listening on port 8080!
+2024-05-08T02:58:31.581Z info: App listening on port 8080!
+2024-05-08T02:58:42.577Z info: App listening on port 8080!
+2024-05-08T02:58:57.184Z info: App listening on port 8080!
+2024-05-08T02:59:00.943Z info: App listening on port 8080!
+2024-05-08T02:59:02.581Z info: App listening on port 8080!
+2024-05-08T02:59:29.073Z info: App listening on port 8080!
+2024-05-08T02:59:31.596Z info: App listening on port 8080!
+2024-05-08T02:59:33.445Z info: App listening on port 8080!
+2024-05-08T02:59:35.751Z info: App listening on port 8080!
+2024-05-08T02:59:45.764Z info: App listening on port 8080!
+2024-05-08T02:59:51.372Z info: App listening on port 8080!
+2024-05-08T03:00:16.120Z info: App listening on port 8080!
+2024-05-08T03:00:20.820Z info: App listening on port 8080!
+2024-05-08T03:00:23.022Z info: App listening on port 8080!
+2024-05-08T03:00:28.697Z info: App listening on port 8080!
+2024-05-08T03:00:31.223Z info: App listening on port 8080!
+2024-05-08T03:00:53.268Z info: App listening on port 8080!
+2024-05-08T03:01:00.870Z info: App listening on port 8080!
+2024-05-08T03:01:02.838Z info: App listening on port 8080!
+2024-05-08T03:01:04.660Z info: App listening on port 8080!
+2024-05-08T03:01:06.319Z info: App listening on port 8080!
+2024-05-08T03:01:22.985Z info: App listening on port 8080!
+2024-05-08T03:01:26.370Z info: App listening on port 8080!
+2024-05-08T03:01:28.737Z info: App listening on port 8080!
+2024-05-08T03:01:31.123Z info: App listening on port 8080!
+2024-05-08T03:01:33.579Z info: App listening on port 8080!
+2024-05-08T03:01:35.414Z info: App listening on port 8080!
+2024-05-08T03:01:37.148Z info: App listening on port 8080!
+2024-05-08T03:01:39.019Z info: App listening on port 8080!
+2024-05-08T03:01:42.804Z info: App listening on port 8080!
+2024-05-08T03:01:45.286Z info: App listening on port 8080!
+2024-05-08T03:01:51.015Z info: App listening on port 8080!
+2024-05-08T03:02:13.055Z info: App listening on port 8080!
+2024-05-08T03:02:14.920Z info: App listening on port 8080!
+2024-05-08T03:02:17.060Z info: App listening on port 8080!
+2024-05-08T03:02:26.789Z info: App listening on port 8080!
+2024-05-08T03:02:29.748Z info: App listening on port 8080!
+2024-05-08T03:02:32.077Z info: App listening on port 8080!
+2024-05-08T03:02:35.801Z info: App listening on port 8080!
+2024-05-08T03:02:39.886Z info: App listening on port 8080!
+2024-05-08T03:02:44.806Z info: App listening on port 8080!
+2024-05-08T03:02:47.581Z info: App listening on port 8080!
+2024-05-08T03:02:54.712Z info: App listening on port 8080!
+2024-05-08T03:02:56.518Z info: App listening on port 8080!
+2024-05-08T03:03:00.678Z info: App listening on port 8080!
+2024-05-08T03:03:04.347Z info: App listening on port 8080!
+2024-05-08T03:03:12.305Z info: App listening on port 8080!
+2024-05-08T03:03:15.130Z info: App listening on port 8080!
+2024-05-08T03:03:32.410Z info: App listening on port 8080!
+2024-05-08T03:03:34.638Z info: App listening on port 8080!
+2024-05-08T03:03:36.918Z info: App listening on port 8080!
+2024-05-08T03:03:43.718Z info: App listening on port 8080!
+2024-05-08T03:03:59.716Z info: App listening on port 8080!
+2024-05-08T03:04:01.534Z info: App listening on port 8080!
+2024-05-08T03:04:22.047Z info: App listening on port 8080!
+2024-05-08T03:04:26.597Z info: App listening on port 8080!
+2024-05-08T03:04:30.300Z info: App listening on port 8080!
+2024-05-08T03:04:33.927Z info: GET /asfa
+2024-05-08T03:04:38.747Z info: POST /api/login
+2024-05-08T03:06:52.290Z info: App listening on port 8080!
+2024-05-08T03:06:53.503Z info: POST /api/login
+2024-05-08T03:06:58.452Z info: POST /api/login
+2024-05-08T03:07:07.585Z info: App listening on port 8080!
+2024-05-08T03:07:13.852Z info: App listening on port 8080!
+2024-05-08T03:07:21.061Z info: App listening on port 8080!
+2024-05-08T03:07:44.997Z info: App listening on port 8080!
+2024-05-08T03:07:48.898Z info: App listening on port 8080!
+2024-05-08T03:07:51.812Z info: App listening on port 8080!
+2024-05-08T03:07:55.859Z info: App listening on port 8080!
+2024-05-08T03:07:58.384Z info: App listening on port 8080!
+2024-05-08T03:08:04.270Z info: App listening on port 8080!
+2024-05-08T03:08:05.543Z info: App listening on port 8080!
+2024-05-08T03:08:10.766Z info: App listening on port 8080!
+2024-05-08T03:08:12.925Z info: App listening on port 8080!
+2024-05-08T03:08:18.341Z info: App listening on port 8080!
+2024-05-08T03:08:39.839Z info: POST /api/login
+2024-05-08T03:09:04.922Z info: App listening on port 8080!
+2024-05-08T03:09:09.932Z info: App listening on port 8080!
+2024-05-08T03:09:14.939Z info: App listening on port 8080!
+2024-05-08T03:09:19.270Z info: App listening on port 8080!
+2024-05-08T03:09:21.223Z info: App listening on port 8080!
+2024-05-08T03:09:24.696Z info: App listening on port 8080!
+2024-05-08T03:09:31.579Z info: App listening on port 8080!
+2024-05-08T03:09:34.339Z info: App listening on port 8080!
+2024-05-08T03:09:41.669Z info: App listening on port 8080!
+2024-05-08T03:09:50.672Z info: App listening on port 8080!
+2024-05-08T03:09:54.318Z info: App listening on port 8080!
+2024-05-08T03:09:55.655Z info: App listening on port 8080!
+2024-05-08T03:09:59.475Z info: App listening on port 8080!
+2024-05-08T03:10:02.221Z info: App listening on port 8080!
+2024-05-08T03:10:05.060Z info: App listening on port 8080!
+2024-05-08T03:10:11.037Z info: App listening on port 8080!
+2024-05-08T03:10:19.492Z info: App listening on port 8080!
+2024-05-08T03:10:24.291Z info: App listening on port 8080!
+2024-05-08T03:10:26.441Z info: App listening on port 8080!
+2024-05-08T03:10:31.771Z info: App listening on port 8080!
+2024-05-08T03:10:33.662Z info: App listening on port 8080!
+2024-05-08T03:10:42.435Z info: App listening on port 8080!
+2024-05-08T03:10:44.171Z info: App listening on port 8080!
+2024-05-08T03:10:47.458Z info: App listening on port 8080!
+2024-05-08T03:10:52.834Z info: App listening on port 8080!
+2024-05-08T03:10:56.185Z info: App listening on port 8080!
+2024-05-08T03:10:58.069Z info: App listening on port 8080!
+2024-05-08T03:11:00.490Z info: App listening on port 8080!
+2024-05-08T03:11:12.641Z info: App listening on port 8080!
+2024-05-08T03:11:16.405Z info: App listening on port 8080!
+2024-05-08T03:11:17.674Z info: App listening on port 8080!
+2024-05-08T03:11:21.646Z info: App listening on port 8080!
+2024-05-08T03:11:24.408Z info: App listening on port 8080!
+2024-05-08T03:11:34.488Z info: App listening on port 8080!
+2024-05-08T03:11:35.651Z info: App listening on port 8080!
+2024-05-08T03:11:38.817Z info: App listening on port 8080!
+2024-05-08T03:11:42.937Z info: App listening on port 8080!
+2024-05-08T03:12:16.129Z info: App listening on port 8080!
+2024-05-08T03:12:21.748Z info: App listening on port 8080!
+2024-05-08T03:12:23.075Z info: App listening on port 8080!
+2024-05-08T03:12:26.129Z info: App listening on port 8080!
+2024-05-08T03:12:28.155Z info: App listening on port 8080!
+2024-05-08T03:12:47.832Z info: App listening on port 8080!
+2024-05-08T03:12:51.011Z info: App listening on port 8080!
+2024-05-08T03:12:52.183Z info: App listening on port 8080!
+2024-05-08T03:12:55.425Z info: App listening on port 8080!
+2024-05-08T03:12:57.595Z info: App listening on port 8080!
+2024-05-08T03:13:01.846Z info: App listening on port 8080!
+2024-05-08T03:13:12.995Z info: App listening on port 8080!
+2024-05-08T03:13:16.648Z info: App listening on port 8080!
+2024-05-08T03:13:18.371Z info: App listening on port 8080!
+2024-05-08T03:13:22.681Z info: App listening on port 8080!
+2024-05-08T03:13:25.050Z info: App listening on port 8080!
+2024-05-08T03:13:37.317Z info: App listening on port 8080!
+2024-05-08T03:13:41.679Z info: App listening on port 8080!
+2024-05-08T03:13:44.942Z info: App listening on port 8080!
+2024-05-08T03:13:51.048Z info: App listening on port 8080!
+2024-05-08T03:13:53.023Z info: App listening on port 8080!
+2024-05-08T03:13:55.814Z info: App listening on port 8080!
+2024-05-08T03:13:56.951Z info: App listening on port 8080!
+2024-05-08T03:14:00.113Z info: App listening on port 8080!
+2024-05-08T03:14:12.163Z info: App listening on port 8080!
+2024-05-08T03:14:15.214Z info: App listening on port 8080!
+2024-05-08T03:14:19.659Z info: App listening on port 8080!
+2024-05-08T03:14:20.684Z info: App listening on port 8080!
+2024-05-08T03:14:22.564Z info: App listening on port 8080!
+2024-05-08T03:14:26.568Z info: App listening on port 8080!
+2024-05-08T03:14:41.358Z info: App listening on port 8080!
+2024-05-08T03:14:55.777Z info: POST /api/login
+2024-05-08T03:15:02.030Z info: GET /api/todos/
+2024-05-08T03:15:48.630Z info: GET /api/todos/
+2024-05-08T03:15:56.322Z info: GET /api/todos/
+2024-05-08T03:16:12.400Z info: GET /api/todos/
+2024-05-08T03:17:06.469Z info: App listening on port 8080!
+2024-05-08T03:17:12.986Z info: App listening on port 8080!
+2024-05-08T03:17:17.924Z info: App listening on port 8080!
+2024-05-08T03:17:28.684Z info: App listening on port 8080!
+2024-05-08T03:18:28.576Z info: App listening on port 8080!
+2024-05-08T03:18:35.654Z info: App listening on port 8080!
+2024-05-08T03:19:31.169Z info: App listening on port 8080!
+2024-05-08T03:19:34.627Z info: App listening on port 8080!
+2024-05-08T03:19:36.063Z info: App listening on port 8080!
+2024-05-08T03:19:39.697Z info: App listening on port 8080!
+2024-05-08T03:19:44.274Z info: App listening on port 8080!
+2024-05-08T03:19:46.270Z info: App listening on port 8080!
+2024-05-08T03:19:48.516Z info: App listening on port 8080!
+2024-05-08T03:19:49.746Z info: App listening on port 8080!
+2024-05-08T03:19:54.860Z info: App listening on port 8080!
+2024-05-08T03:20:12.174Z info: GET /api/todos/
+2024-05-08T03:20:18.125Z info: GET /api/todos/
+2024-05-08T03:20:34.230Z info: App listening on port 8080!
+2024-05-08T03:20:45.188Z info: App listening on port 8080!
+2024-05-08T03:20:50.696Z info: App listening on port 8080!
+2024-05-08T03:21:01.790Z info: App listening on port 8080!
+2024-05-08T03:21:10.367Z info: App listening on port 8080!
+2024-05-08T03:21:24.096Z info: App listening on port 8080!
+2024-05-08T03:21:39.294Z info: GET /api/todos/
+2024-05-08T03:21:45.010Z info: GET /api/todos/
+2024-05-08T03:21:49.412Z info: GET /api/todos/
+2024-05-08T03:22:02.594Z info: App listening on port 8080!
+2024-05-08T03:22:19.486Z info: App listening on port 8080!
+2024-05-08T03:22:25.260Z info: App listening on port 8080!
+2024-05-08T03:22:28.490Z info: App listening on port 8080!
+2024-05-08T03:22:30.227Z info: App listening on port 8080!
+2024-05-08T03:23:54.420Z info: App listening on port 8080!
+2024-05-08T03:23:57.373Z info: App listening on port 8080!
+2024-05-08T03:24:11.686Z info: App listening on port 8080!
+2024-05-08T03:24:17.626Z info: App listening on port 8080!
+2024-05-08T03:24:23.359Z info: App listening on port 8080!
+2024-05-08T03:25:22.872Z info: App listening on port 8080!
+2024-05-08T03:26:01.430Z info: App listening on port 8080!
+2024-05-08T03:26:56.242Z info: App listening on port 8080!
+2024-05-08T03:30:54.040Z info: App listening on port 8080!
+2024-05-08T03:31:00.762Z info: GET /api/users/me
+2024-05-08T03:31:00.778Z info: GET /api/users/me
+2024-05-08T03:31:05.951Z info: POST /api/login
+2024-05-08T03:31:06.105Z info: GET /api/users/me
+2024-05-08T03:31:06.128Z info: GET /api/todos/
+2024-05-08T03:31:06.138Z info: GET /api/todos/
+2024-05-08T03:31:09.038Z info: POST /api/todos/
+2024-05-08T03:31:10.049Z info: POST /api/todos/
+2024-05-08T03:31:11.241Z info: POST /api/todos/
+2024-05-08T03:31:12.273Z info: POST /api/todos/
+2024-05-08T03:31:13.580Z info: POST /api/todos/
+2024-05-08T03:31:14.454Z info: POST /api/todos/
+2024-05-08T03:31:16.798Z info: PUT /api/todos/4
+2024-05-08T03:31:17.096Z info: PUT /api/todos/5
+2024-05-08T03:31:18.702Z info: PUT /api/todos/9
+2024-05-08T03:31:20.038Z info: GET /api/users/me
+2024-05-08T03:31:20.049Z info: GET /api/users/me
+2024-05-08T03:31:21.732Z info: GET /api/todos/
+2024-05-08T03:31:21.746Z info: GET /api/todos/
+2024-05-08T03:32:00.613Z info: GET /api/users/me
+2024-05-08T03:32:00.684Z info: GET /api/users/me
+2024-05-08T03:32:02.882Z info: GET /api/todos/
+2024-05-08T03:32:02.893Z info: GET /api/todos/
+2024-05-08T03:34:49.356Z info: GET /api/users/me
+2024-05-08T03:34:51.197Z info: GET /api/users/me
+2024-05-08T03:34:53.161Z info: GET /api/users/me
+2024-05-08T03:34:58.095Z info: GET /api/users/me
+2024-05-08T03:35:16.858Z info: GET /api/users/me
+2024-05-08T03:35:16.861Z info: GET /api/users/me
+2024-05-08T03:35:23.241Z info: GET /api/users/me
+2024-05-08T03:36:07.352Z info: GET /api/users/me
+2024-05-08T03:36:08.360Z info: GET /api/users/me
+2024-05-08T03:36:13.332Z info: GET /api/users/me
+2024-05-08T03:36:18.686Z info: POST /api/login
+2024-05-08T03:36:21.269Z info: POST /api/login
+2024-05-08T03:36:21.354Z info: GET /api/users/me
+2024-05-08T03:36:21.374Z info: GET /api/todos/
+2024-05-08T03:36:21.385Z info: GET /api/todos/
+2024-05-08T03:38:02.285Z info: PUT /api/todos/4
+2024-05-08T03:38:02.692Z info: PUT /api/todos/5
+2024-05-08T03:38:03.561Z info: PUT /api/todos/9
+2024-05-08T03:38:03.837Z info: PUT /api/todos/9
+2024-05-08T03:38:04.812Z info: PUT /api/todos/8
+2024-05-08T03:38:07.602Z info: PUT /api/todos/9
+2024-05-08T03:38:07.791Z info: PUT /api/todos/9
+2024-05-08T03:38:08.152Z info: PUT /api/todos/9
+2024-05-08T03:38:08.313Z info: PUT /api/todos/9
+2024-05-08T03:38:09.491Z info: PUT /api/todos/9
+2024-05-08T03:42:16.363Z info: GET /api/todos/
+2024-05-08T03:42:17.356Z info: GET /api/todos/
+2024-05-08T03:42:19.351Z info: GET /api/todos/
+2024-05-08T03:42:20.660Z info: GET /api/todos/
+2024-05-08T03:42:34.270Z info: POST /api/todos/
+2024-05-08T03:42:36.648Z info: PUT /api/todos/10
+2024-05-08T03:42:37.127Z info: PUT /api/todos/10
+2024-05-08T03:42:37.438Z info: DELETE /api/todos/10
+2024-05-08T03:42:38.051Z info: DELETE /api/todos/9
+2024-05-08T03:42:38.498Z info: DELETE /api/todos/8
+2024-05-08T03:42:39.326Z info: DELETE /api/todos/7
+2024-05-08T03:42:39.759Z info: DELETE /api/todos/6
+2024-05-08T03:42:40.495Z info: DELETE /api/todos/5
+2024-05-08T03:42:40.858Z info: DELETE /api/todos/4
+2024-05-08T03:43:40.909Z info: GET /api/users/me
+2024-05-08T03:43:41.008Z info: GET /api/users/me
+2024-05-08T03:43:42.478Z info: GET /api/todos/
+2024-05-08T03:43:42.489Z info: GET /api/todos/
+2024-05-08T03:43:55.551Z info: GET /api/users/me
+2024-05-08T03:43:55.611Z info: GET /api/users/me
+2024-05-08T03:43:56.340Z info: GET /api/todos/
+2024-05-08T03:43:56.346Z info: GET /api/todos/
+2024-05-08T03:44:04.933Z info: GET /api/users/me
+2024-05-08T03:44:04.939Z info: GET /api/users/me
+2024-05-08T03:44:05.531Z info: GET /api/todos/
+2024-05-08T03:44:05.537Z info: GET /api/todos/
+2024-05-08T03:45:41.492Z info: GET /api/users/me
+2024-05-08T03:45:46.577Z info: GET /api/users/me
+2024-05-08T03:45:48.472Z info: GET /api/users/me
+2024-05-08T03:45:51.699Z info: GET /api/users/me
+2024-05-08T03:45:53.039Z info: GET /api/users/me
+2024-05-08T03:45:55.374Z info: GET /api/users/me
+2024-05-08T03:45:57.506Z info: GET /api/users/me
+2024-05-08T03:46:07.706Z info: GET /api/users/me
+2024-05-08T03:46:07.709Z info: GET /api/users/me
+2024-05-08T03:46:11.108Z info: POST /api/login
+2024-05-08T03:46:11.241Z info: GET /api/users/me
+2024-05-08T03:46:11.259Z info: GET /api/todos/
+2024-05-08T03:46:11.269Z info: GET /api/todos/
+2024-05-08T03:46:35.428Z info: POST /api/users/
+2024-05-08T03:46:40.381Z info: POST /api/login
+2024-05-08T03:46:40.465Z info: GET /api/users/me
+2024-05-08T03:46:40.481Z info: GET /api/todos/
+2024-05-08T03:46:40.489Z info: GET /api/todos/
+2024-05-08T03:47:06.297Z info: GET /api/todos/
+2024-05-08T03:47:12.207Z info: POST /api/login
+2024-05-08T03:47:12.293Z info: GET /api/users/me
+2024-05-08T03:47:12.306Z info: GET /api/todos/
+2024-05-08T03:47:12.310Z info: GET /api/todos/
+2024-05-08T03:47:16.284Z info: GET /api/todos/
+2024-05-08T03:47:18.285Z info: POST /api/todos/
+2024-05-08T03:47:20.340Z info: GET /api/todos/
+2024-05-08T03:47:25.860Z info: PUT /api/todos/11
+2024-05-08T03:47:26.130Z info: PUT /api/todos/11
+2024-05-08T03:47:26.959Z info: PUT /api/todos/11
+2024-05-08T03:47:27.218Z info: PUT /api/todos/11
+2024-05-08T04:08:19.910Z info: App listening on port 8080!
+2024-05-08T04:08:22.218Z info: POST /api/login
+2024-05-08T04:08:22.316Z info: GET /api/users/me
+2024-05-08T04:08:22.347Z info: GET /api/todos/
+2024-05-08T04:08:22.368Z info: GET /api/todos/

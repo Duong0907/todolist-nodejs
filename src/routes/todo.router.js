@@ -1,5 +1,5 @@
-const todoController = require('../controllers/todoController.js');
-const authMiddleware = require('../middlewares/authMiddleware.js');
+const todoController = require('../controllers/todo.controller.js');
+const authMiddleware = require('../middlewares/auth.middleware.js');
 const express = require('express');
 
 const router = express.Router();
