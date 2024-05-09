@@ -2,11 +2,23 @@ const {
     CreatedResponse,
     OKResponse,
     NotFoundErrorResponse,
+    BadRequestErrorResponse,
+    ForbidenErrorResponse,
 } = require('../global/response');
 const db = require('../models/index');
 const TodoModel = db.todos;
 
 const createTodo = async (todo) => {
+    const existedTodo = await TodoModel.findOne({
+        where: {
+            title: todo.title,
+        }
+    });
+    if (existedTodo) {
+        return new BadRequestErrorResponse("Todo is existed");
+    }
+
+
     const createdTodo = await TodoModel.create(todo);
     return new CreatedResponse('Create todo successfully', {
         todo: createdTodo,
@@ -27,12 +39,19 @@ const getAllTodos = async (userID) => {
 };
 
 const getTodoByID = async (userID, id) => {
-    const result = await TodoModel.findOne({
+    const todo = await TodoModel.findOne({
         where: {
-            user_id: userID,
             id: id,
         },
     });
+
+    if (!todo) {
+        return new NotFoundErrorResponse("Todo not found");
+    }
+
+    if (todo.user_id != userID) {
+        return new ForbidenErrorResponse("Can not get this todo");
+    }
 
     return new OKResponse('Get todo by ID successfully', {
         todo: result,
@@ -65,10 +84,14 @@ const updateTodo = async (userID, newTodo) => {
 const deleteTodo = async (userID, id) => {
     await TodoModel.destroy({
         where: {
-            user_id: userID,
             id: id,
         },
     });
+
+    if (todo.user_id != userID) {
+        return new ForbidenErrorResponse("Can not delete this todo");
+    }
+
     return new OKResponse('Delete todo successfully', null);
 };
 

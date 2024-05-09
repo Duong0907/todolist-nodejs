@@ -7,6 +7,11 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
     operatorsAliases: false,
     port: dbConfig.port,
     logging: false,
+    dialectOptions: {
+        ssl: {
+            require: dbConfig.SSL_MODE
+        }
+    },
     pool: {
         max: dbConfig.pool.max,
         min: dbConfig.pool.min,

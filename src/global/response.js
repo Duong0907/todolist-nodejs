@@ -30,6 +30,10 @@ function UnauthorizedErrorResponse(message) {
     (this.message = message), (this.error = true), (this.statusCode = 401);
 }
 
+function ForbidenErrorResponse(message) {
+    (this.message = message), (this.error = true), (this.statusCode = 403);
+}
+
 module.exports = {
     CreatedResponse,
     OKResponse,
@@ -37,4 +41,5 @@ module.exports = {
     NotFoundErrorResponse,
     InternalServerErrorResponse,
     UnauthorizedErrorResponse,
+    ForbidenErrorResponse,
 };

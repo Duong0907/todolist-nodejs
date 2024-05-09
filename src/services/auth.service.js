@@ -2,9 +2,16 @@ const db = require('../models/index');
 const passwordUtil = require('../utils/password');
 const jwtUtil = require('../utils/jwt');
 const { BadRequestErrorResponse, OKResponse } = require('../global/response');
+const { isValidEmail } = require('../utils/validator');
 const userModel = db.users;
 
 const login = async (credentials) => {
+    const {email, password} = credentials;
+    if (!email || !password) {
+        return new BadRequestErrorResponse("Email and password are required");
+    }
+
+    
     const user = await userModel.findOne({
         where: {
             email: credentials.email,

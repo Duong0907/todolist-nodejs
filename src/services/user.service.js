@@ -2,17 +2,43 @@ const {
     CreatedResponse,
     NotFoundErrorResponse,
     OKResponse,
+    BadRequestErrorResponse,
 } = require('../global/response');
 const db = require('../models/index');
 const passwordUtil = require('../utils/password');
+const { isValidEmail, isValidPassword } = require('../utils/validator');
 const UserModel = db.users;
 
 const createUser = async (user) => {
+    const { firstname, lastname, email, password } = user;
+
+    // Validate email
+    if (!isValidEmail(email)) {
+        return new BadRequestErrorResponse('Invalid email');
+    }
+
+    const existedUser = await UserModel.findOne({where: {
+        email: user.email
+    }});
+    if (existedUser) {
+        return new BadRequestErrorResponse("Existed email");
+    }
+    
+    // Validate password
+    if (!isValidPassword(password)) {
+        return new BadRequestErrorResponse('Password must have min 8 letter, with at least a symbol, upper and lower case letters and a number');
+    }
+
     // Hash password
-    let hashedPassword = await passwordUtil.hashPassword(user.password);
+    let hashedPassword = await passwordUtil.hashPassword(password);
     user.password = hashedPassword;
 
-    const createdUser = await UserModel.create(user);
+    const createdUser = await UserModel.create({
+        firstname,
+        lastname,
+        email,
+        password,
+    });
     createdUser.password = '***';
 
     return new CreatedResponse('Create user successfully', {

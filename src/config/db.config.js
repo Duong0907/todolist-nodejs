@@ -1,10 +1,13 @@
+require('dotenv').config();
+
 const dbConfig = {
-    HOST: 'localhost',
-    USER: 'postgres',
-    PASSWORD: 'secret',
-    DB: 'postgres',
-    dialect: 'postgres',
-    port: 5433,
+    HOST: process.env.DB_HOST,
+    USER: process.env.DB_USER,
+    PASSWORD: process.env.DB_PASSWORD,
+    DB: process.env.DB,
+    dialect: process.env.DB_DIALECT,
+    port: process.env.DB_PORT,
+    SSL_MODE: process.env.SSL_MODE,
     pool: {
         max: 5,
         min: 0,

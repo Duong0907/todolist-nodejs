@@ -8,8 +8,8 @@ const createUser = async (req, res) => {
         password: req.body.password,
     };
 
-    let result = await userService.createUser(newUser);
-    res.status(200).json(result);
+    let response = await userService.createUser(newUser);
+    res.status(response.statusCode).json(response);
 };
 
 const getUserByID = async (req, res) => {

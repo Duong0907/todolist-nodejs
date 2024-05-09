@@ -1,5 +1,5 @@
 services:
-   todo_express_db:
+  todo_express_db:
     container_name: todo_express_db
     image: postgres:12-alpine
     environment:
@@ -8,11 +8,42 @@ services:
       POSTGRES_DB: postgres
     ports:
       - 5433:5432
-    hostname: chatpg
+    hostname: todo_express_db
     networks: 
       - todo_express
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "sh -c 'pg_isready -U postgres -d root'"]
+      test: ["CMD-SHELL", "sh -c 'pg_isready -U postgres -d postgres'"]
       interval: 10s
       timeout: 3s
       retries: 3
+
+  todo_express_be:
+    container_name: todo_express_be
+    image: duong0907/todo_express_be:1.0.0
+    hostname: todo_express_be
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      GET_HOST_FROM: dns
+      ACCESS_TOKEN_SECRET: 6194d1488263cf95ac02f792b3214c516c21361128a33c6d8e117054cf1006949821aa18d7169399f0aa030cda2564683588c043b3b9087a892de8047fa22197
+      ACCESS_TOKEN_EXPIRES_IN: 1h
+      DB_HOST: todo_express_db
+      DB_USER: postgres
+      DB_PASSWORD: secret
+      DB: postgres
+      DB_DIALECT: postgres
+      DB_PORT: 5433
+    ports: 
+      - 8080:8080
+    networks: 
+      - todo_express
+    depends_on:
+      todo_express_db:
+        condition: service_healthy
+
+networks: 
+  todo_express: 
+    driver: bridge
