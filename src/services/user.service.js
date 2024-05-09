@@ -31,20 +31,19 @@ const createUser = async (user) => {
 
     // Hash password
     let hashedPassword = await passwordUtil.hashPassword(password);
-    user.password = hashedPassword;
 
     const createdUser = await UserModel.create({
         firstname,
         lastname,
         email,
-        password,
+        password: hashedPassword,
     });
     createdUser.password = '***';
 
     return new CreatedResponse('Create user successfully', {
         user_id: createdUser.id,
     });
-};
+};` `
 
 const getUserByID = async (id) => {
     const user = await UserModel.findOne({

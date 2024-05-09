@@ -1031,3 +1031,14 @@ undefined
 2024-05-09T00:48:20.608Z info: App listening on port 8080!
 2024-05-09T00:48:23.550Z info: App listening on port 8080!
 2024-05-09T00:48:33.920Z info: App listening on port 8080!
+2024-05-09T01:38:47.743Z info: App listening on port 8080!
+2024-05-09T01:39:05.509Z info: App listening on port 8080!
+2024-05-09T01:42:16.463Z info: GET /
+2024-05-09T01:44:25.074Z info: GET /api/users/me
+2024-05-09T01:44:25.080Z info: GET /api/users/me
+2024-05-09T01:44:31.395Z info: POST /api/users/
+2024-05-09T01:44:36.923Z info: POST /api/users/
+2024-05-09T01:44:43.892Z info: POST /api/login
+2024-05-09T01:44:43.994Z info: GET /api/users/me
+2024-05-09T01:44:44.041Z info: GET /api/todos/
+2024-05-09T01:44:44.075Z info: GET /api/todos/
